@@ -1,0 +1,142 @@
+## These are some commonly ignored files in multienvironment
+## To Ignore everything in a folder except for some sub directory or file you can do like this:
+# node_modules/     #All These are ignored
+# !node_modules/react-native*/  #All these are ignored except react-native/
+
+# Node.js and npm
+node_modules/
+npm-debug.log
+yarn-error.log
+build/
+dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__init__.pyc
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+
+# Dependency directories and files
+.env
+lib/
+vendor/
+*.sqlite
+*.sqlite3
+*.log
+
+# Testing
+coverage/
+
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Flutter and Dart
+.dart_tool/
+pubspec.lock
+pubspec.yaml
+.dart_tool/
+.packages
+
+# Compiled Dart files
+*.dart.js
+*.dart.js.map
+
+# Android
+/build/
+.gradle/
+local.properties
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/libraries
+/.idea/modules.xml
+.idea/.name
+.idea/compiler.xml
+.idea/caches
+.idea/misc.xml
+.idea/vcs.xml
+.idea/vcs/*
+.idea/dart.xml
+.idea/flutter_settings.xml
+.idea/webdev.xml
+
+# iOS
+/ios/Pods/
+/ios/Podfile.lock
+/ios/.symlinks/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/App.framework
+/ios/Flutter/App.framework.zip
+/ios/Flutter/App.podspec
+/ios/Flutter/App.xcconfig
+/ios/Flutter/ephemeral/.plugin_symlinks/
+/ios/Flutter/ephemeral/flutter_assets/
+
+# Android Studio
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/gradle.xml
+/.idea/libraries
+/.idea/modules.xml
+.idea/.name
+.idea/compiler.xml
+.idea/caches
+.idea/misc.xml
+.idea/vcs.xml
+.idea/vcs/*
+.idea/dart.xml
+.idea/flutter_settings.xml
+.idea/webdev.xml
+
+# Visual Studio Code
+.vscode/
+.history/
+.settings/
+
+# Miscellaneous
+*.log
+*.log.*
+logs/
+log/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled Java classes and JAR files
+*.class
+*.jar
+
+# Compiled C/C++/C# files
+*.o
+*.out
+*.exe
+*.dll
+*.pdb
+
+# Compiled PHP files
+*.phpc
+*.swp
+
+# Compiled Ruby files
+*.rbc
+*.rbo
+*.rbs
+*.gem
