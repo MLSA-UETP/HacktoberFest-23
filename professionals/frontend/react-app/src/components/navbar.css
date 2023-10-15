@@ -1,0 +1,38 @@
+/* Basic styling for the navigation bar */
+.navbar {
+    background-color: var(--c1);
+    color: var(--c3);
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--c3);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--c3);
+}
