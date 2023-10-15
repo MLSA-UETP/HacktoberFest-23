@@ -1,0 +1,43 @@
+/* Styling for the main content area */
+main {
+  min-height: 80vh;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: var(--c1);
+}
+
+.animation-box img {
+  width: auto;
+  height: 150px;
+  border-radius: 100%;
+  margin: 10px auto;
+  animation: scaleAnimation 2s ease-in-out infinite alternate;
+}
+
+@keyframes scaleAnimation {
+  0% {
+      transform: scale(0.7);
+      transform: rotate(60deg);
+  }
+
+  100% {
+      transform: scale(1.2);
+      transform: rotate(-60deg);
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
