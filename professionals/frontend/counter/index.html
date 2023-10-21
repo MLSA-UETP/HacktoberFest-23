@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- title -->
+    <title>Counter</title>
+
+    <!-- required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7d7c7c" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link rel="icon" href="img/infinite.png" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- loader start -->
+    <div id="loadingDiv">
+      <div class="loader"></div>
+    </div>
+    <!-- loader end -->
+
+    <div id="container">
+      <p class="title">Counter</p>
+      <p id="counter">0</p>
+      <div class="buttons">
+        <button class="btn prevBtn" type="button">Lower Count</button>
+        <button class="btn resetBtn" type="button">Reset</button>
+        <button class="btn nextBtn" type="button">Add count</button>
+      </div>
+    </div>
+
+    <!-- sound effect -->
+    <audio src="sound/counter-hand.mp3" id="sound" preload="auto"></audio>
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- script js -->
+    <script src="js/app.js"></script>
+  </body>
+</html>
